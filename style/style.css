@@ -106,9 +106,33 @@
     font-weight: 900;
     font-style: italic;
   }
-/* Shared Style */
-
-
+/* button Style */
+.future-btn{
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 1) ;
+  font-size: 16px;
+  margin: 0;
+  padding: 11px 20px;
+  border: none;
+}
+.btn1{
+  background-color:rgba(84, 144, 245, 1) ;
+}
+.btn2{
+  background-color:rgba(9, 161, 92, 1) ;
+}
+.btn3{
+  background-color: rgba(255, 194, 57, 1);
+}
+.future-box1{
+  background-color: rgba(84, 144, 245, 0.2) ;
+}
+.future-box2{
+  background-color: rgba(198, 228, 214, 1);
+}
+.future-box3{
+  background-color: rgba(247, 235, 207, 1) ;
+}
 /* Header Button */
 .nav-btn{
     font-size: 18px;
@@ -163,8 +187,80 @@ body{
     font-size: 56px;
 }
 .banner-title,.banner-sub-title{
-    margin: 16px;
+    margin-top: 16px;
+    margin-bottom: 0;
 }
 .banner-sub-title,.btn-contaner{
-    margin: 24px ;
+    margin-top: 24px ;
+}
+/* section style */
+.card-contan{
+  margin: 80px 160px ;
+}
+.card-contains{
+  display: flex;
+  gap: 24px;
+}
+.card-main-contant{
+  font-size: 40px;
+  color: #0E0E0E;
+}
+.card-contaner{
+  height: 244px;
+  width: 302px;
+  padding: 24px;
+  border-radius: 16px;
+  background-color: #FFFFFF;
+  border: 1px solid rgba(14, 14, 14, 0.15) ;
+}
+.card-title{
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.card-discription{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+} 
+.card-image, .card-title{
+  margin-top: 24px;
+  margin-bottom: 0;
+}
+.card-title, .card-discription{
+  margin-top: 12px;
+}
+/* The vision of Future */
+
+.future-title{
+  font-size: 40px;
+  color:#0E0E0E;
+}
+.future-discription{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.future-sub-title{
+  font-size: 20px ;
+  color: rgba(14, 14, 14, 0.8);
+}
+.future-sub-discription{
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+}
+.future-cards{
+  display: flex;
+  gap: 24px;
+}
+.future-card{
+  border-radius: 16px;
+  padding:32px ;
+  height: 325px ;
+  width: 411px;
+}
+.future-contant{
+  margin: 80px 160px;
+}
+
+.future-sub-title{
+  margin-top: 24px;
+  margin-bottom:12px; 
 }
