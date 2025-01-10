@@ -264,3 +264,29 @@ body{
   margin-top: 24px;
   margin-bottom:12px; 
 }
+.about-description{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+  background-image: url(/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.PM-Bangladesh{
+  font-size: 20px;
+  color: rgba(14, 14, 14, 0.8);
+  margin-top: 12px;
+  margin-bottom: 0px;
+}
+.PM-title{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+  margin-top: 4px;
+}
+.future-about{
+  margin-top:32px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  padding: 48px 24px;
+
+}
