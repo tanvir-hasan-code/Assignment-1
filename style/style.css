@@ -1,0 +1,170 @@
+/* font style */
+.fira-sans-thin {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .fira-sans-extralight {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .fira-sans-light {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .fira-sans-regular {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .fira-sans-medium {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .fira-sans-semibold {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .fira-sans-bold {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .fira-sans-extrabold {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .fira-sans-black {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .fira-sans-thin-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .fira-sans-extralight-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .fira-sans-light-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .fira-sans-regular-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .fira-sans-medium-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .fira-sans-semibold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .fira-sans-bold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .fira-sans-extrabold-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .fira-sans-black-italic {
+    font-family: "Fira Sans", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+/* Shared Style */
+
+
+/* Header Button */
+.nav-btn{
+    font-size: 18px;
+    color: #006A50;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    background-color: white;
+    padding: 30px 30px;
+    height: 52;
+}
+/* btn style */
+.btn-contaner{
+    color: #FFFFFF;
+    background-color: #006A50;
+    border-radius: 8px;
+    padding: 17px 34px;
+}
+
+/* navber Disign */
+body{
+    background-color: #F5F5F5;
+} 
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 24px 160px;
+}
+.nav-title{
+    font-size: 32px;
+}
+.banner{
+    display: flex;
+    background-color: #C6E4D6;
+    max-width: 1280px;
+    max-height: 560px;
+    margin: 20px 160px;
+    border-radius: 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-contant{
+    padding: 117px 64px 117px 60px;
+}
+.banner-title{
+    font-size: 24px;
+    color: rgba(14, 14, 14, 0.5);
+}
+.banner-sub-title{
+    color: rgba(14, 14, 14, 1);
+    font-size: 56px;
+}
+.banner-title,.banner-sub-title{
+    margin: 16px;
+}
+.banner-sub-title,.btn-contaner{
+    margin: 24px ;
+}
