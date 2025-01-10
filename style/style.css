@@ -157,6 +157,15 @@
   padding: 13px 26px;
   border: none;
   border-radius: 8px;
+  margin-top: 32px;
+}
+.donate-btn{
+  font-size: 40px;
+  color: rgba(14, 14, 14, 0.8);
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 16px;
+  padding: 40px;
 }
 
 /* navber Disign */
@@ -316,6 +325,7 @@ body{
   padding: 48px;
   border-radius: 24px;
   gap: 32px;
+  margin-bottom: 24px;
 }
 .space-img{
   border-radius: 24px;
@@ -323,8 +333,28 @@ body{
 .news-heading{
   font-size: 32px;
   color: rgba(14, 14, 14, 0.8);
+  margin-top: 0;
+  margin-bottom: 12px;
 }
+
 .date{
   font-size: 16px;
   color: rgba(14, 14, 14, 0.7);
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.donate-section{
+  margin: 80px 160px;
+}
+.donate-title{
+  text-align: center;
+}
+.donate-discription{
+  text-align: center;
+}
+.donate-section{
+  align-items: center;
+}
+.donatebtn{
+  align-items: center;
 }
