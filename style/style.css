@@ -151,6 +151,14 @@
     padding: 17px 34px;
 }
 
+.satelite-news-btn{
+  background-color: rgba(0, 106, 80, 1);
+  color: rgba(255, 255, 255, 1);
+  padding: 13px 26px;
+  border: none;
+  border-radius: 8px;
+}
+
 /* navber Disign */
 body{
     background-color: #F5F5F5;
@@ -289,4 +297,34 @@ body{
   border: 1px solid rgba(14, 14, 14, 0.15);
   padding: 48px 24px;
 
+}
+/* recent part add */
+.news-title{
+  font-size: 40px;
+  color: rgba(14, 14, 14, 1);
+}
+.news-discription{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+.news-banner{
+  padding: 0px 160px;
+}
+.news-contant{
+  display: flex;
+  background-color: rgba(255, 255, 255, 1);
+  padding: 48px;
+  border-radius: 24px;
+  gap: 32px;
+}
+.space-img{
+  border-radius: 24px;
+}
+.news-heading{
+  font-size: 32px;
+  color: rgba(14, 14, 14, 0.8);
+}
+.date{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
 }
