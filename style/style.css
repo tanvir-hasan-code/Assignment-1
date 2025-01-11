@@ -304,6 +304,8 @@ body{
   background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
   background-position: top left;
+  padding-top: 27px;
+
 }
 .PM-Bangladesh{
   font-size: 20px;
@@ -321,7 +323,7 @@ body{
   background-color: rgba(255, 255, 255, 1);
   border-radius: 16px;
   border: 1px solid rgba(14, 14, 14, 0.15);
-  padding: 48px 24px;
+  padding: 25px 24px;
 
 }
 /* recent part add */
