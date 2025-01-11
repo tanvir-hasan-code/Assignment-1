@@ -143,6 +143,14 @@
     padding: 30px 30px;
     height: 52;
 }
+/* hover style */
+
+.btn-style:hover{
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* btn style */
 .btn-contaner-a{
   margin: 0;
@@ -152,6 +160,7 @@
     background-color: #006A50;
     border-radius: 8px;
     padding: 17px 34px;
+    font-size: 18px;
 }
 
 .satelite-news-btn{
@@ -197,7 +206,9 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-
+.subscribe:active{
+  transform: scale(0.9);
+}
 .banner-contant{
     padding: 117px 64px 117px 60px;
 }
@@ -364,6 +375,9 @@ body{
   gap: 24px;
   justify-content: center;
 
+}
+.donate-btn:hover{
+  background-color:#ccc;
 }
 .donate-section input{
   width: 100%;
