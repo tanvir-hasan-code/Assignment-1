@@ -290,7 +290,7 @@ body{
 .about-description{
   font-size: 16px;
   color: rgba(14, 14, 14, 0.8);
-  background-image: url(/assets/quote-bg.png);
+  background-image: url("assets/quote-bg.png");
   background-repeat: no-repeat;
   background-position: top left;
 }
