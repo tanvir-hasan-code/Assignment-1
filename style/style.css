@@ -290,7 +290,7 @@ body{
 .about-description{
   font-size: 16px;
   color: rgba(14, 14, 14, 0.8);
-  background-image: url("assets/quote-bg.png");
+  background-image: url(../assets/quote-bg.png);
   background-repeat: no-repeat;
   background-position: top left;
 }
@@ -422,6 +422,7 @@ body{
   width: 600px;
   border: none ;
   border-radius: 10px 0 0 10px;
+  align-items: center;
 }
 .input-subscribe-email > input::placeholder{
   padding: 18px 403px 18px 40px;
